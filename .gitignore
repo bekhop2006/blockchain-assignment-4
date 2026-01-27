@@ -1,0 +1,46 @@
+# Documentation files to ignore
+part5/README.md
+part5/TESTING.md
+part7/GAS_OPTIMIZATIONS.md
+part7/README.md
+part7/TESTING.md
+QUICK_START.md
+README.md
+TESTING_GUIDE.md
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gas reports
+gas-report.txt
+*.gas-snapshot
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
