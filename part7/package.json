@@ -1,0 +1,20 @@
+{
+  "name": "part7-gas-optimization",
+  "version": "1.0.0",
+  "description": "Gas Optimization Workshop - Part 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "compile": "hardhat compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat-gas-reporter": "^1.0.10",
+    "chai": "^4.3.10",
+    "hardhat": "^2.19.0"
+  }
+}
