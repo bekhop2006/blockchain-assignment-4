@@ -58,7 +58,8 @@ describe("Gas Optimization Comparison", function () {
       console.log(`Original: ${originalReceipt.gasUsed.toString()} gas`);
       console.log(`Optimized: ${optimizedReceipt.gasUsed.toString()} gas`);
       console.log(`Savings: ${(originalReceipt.gasUsed - optimizedReceipt.gasUsed).toString()} gas`);
-      console.log(`Savings %: ${((originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / originalReceipt.gasUsed).toFixed(2)}%`);
+      const savingsPercent = Number(originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / Number(originalReceipt.gasUsed);
+      console.log(`Savings %: ${savingsPercent.toFixed(2)}%`);
     });
   });
 
@@ -78,7 +79,8 @@ describe("Gas Optimization Comparison", function () {
       console.log(`Original: ${originalReceipt.gasUsed.toString()} gas`);
       console.log(`Optimized: ${optimizedReceipt.gasUsed.toString()} gas`);
       console.log(`Savings: ${(originalReceipt.gasUsed - optimizedReceipt.gasUsed).toString()} gas`);
-      console.log(`Savings %: ${((originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / originalReceipt.gasUsed).toFixed(2)}%`);
+      const savingsPercent = Number(originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / Number(originalReceipt.gasUsed);
+      console.log(`Savings %: ${savingsPercent.toFixed(2)}%`);
     });
   });
 
@@ -107,7 +109,8 @@ describe("Gas Optimization Comparison", function () {
       console.log(`Original: ${originalReceipt.gasUsed.toString()} gas`);
       console.log(`Optimized: ${optimizedReceipt.gasUsed.toString()} gas`);
       console.log(`Savings: ${(originalReceipt.gasUsed - optimizedReceipt.gasUsed).toString()} gas`);
-      console.log(`Savings %: ${((originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / originalReceipt.gasUsed).toFixed(2)}%`);
+      const savingsPercent = Number(originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / Number(originalReceipt.gasUsed);
+      console.log(`Savings %: ${savingsPercent.toFixed(2)}%`);
     });
   });
 
@@ -132,7 +135,8 @@ describe("Gas Optimization Comparison", function () {
       console.log(`Original: ${originalReceipt.gasUsed.toString()} gas`);
       console.log(`Optimized: ${optimizedReceipt.gasUsed.toString()} gas`);
       console.log(`Savings: ${(originalReceipt.gasUsed - optimizedReceipt.gasUsed).toString()} gas`);
-      console.log(`Savings %: ${((originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / originalReceipt.gasUsed).toFixed(2)}%`);
+      const savingsPercent = Number(originalReceipt.gasUsed - optimizedReceipt.gasUsed) * 100 / Number(originalReceipt.gasUsed);
+      console.log(`Savings %: ${savingsPercent.toFixed(2)}%`);
     });
   });
 
